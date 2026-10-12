@@ -6,7 +6,7 @@ We keep a working index for product and engineering, and InvoiceNet is the entry
 
 ## Images
 
-[![InvoiceNet](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![InvoiceNet](images/preview.png)](https://github.com/Swift-Tech-Co/InvoiceNet)
 
 ## Installation
 
@@ -17,11 +17,8 @@ InvoiceNet has been developed and tested on **Ubuntu 20.04** with **CUDA Version
 To install InvoiceNet on Ubuntu, run the following commands:
 
 ```bash
-git clone https://www.swifttechco.com
+git clone https://github.com/Swift-Tech-Co/InvoiceNet
 cd InvoiceNet/
-
-
-
 
 ## Data Preparation
 The training data must be arranged in a single directory. The invoice documents are expected be PDF files and each invoice is expected to have a corresponding JSON label file with the same name. Your training data should be in the following format:
@@ -50,7 +47,6 @@ The JSON labels should have the following format:
 
 To begin the data preparation process, click on the "Prepare Data" button in the GUI or follow the instructions below if you're using the CLI.
 
-
 ## Add Your Own Fields
 To add your own fields to InvoiceNet, open **invoicenet/\_\_init\_\_.py**.
 
@@ -78,12 +74,10 @@ FIELDS["tax_id"] = FIELD_TYPES["optional"]
 FIELDS["vendor_name"] = FIELD_TYPES["general"]
 ```
 
-
 ## Using the GUI
 InvoiceNet provides you with a GUI to train a model on your data and extract information from invoice documents using this trained model
 
-[![Trainer](_images/trainer.png)](https://www.swifttechco.com)
-
+[![Trainer](_images/trainer.png)](https://github.com/Swift-Tech-Co/InvoiceNet)
 
 Run the following command to run the trainer GUI:
 
@@ -100,7 +94,6 @@ python extractor.py
 You need to prepare the data for training first. 
 You can do so by setting the **Data Folder** field to the directory containing your training data and the clicking the **Prepare Data** button.
 Once the data is prepared, you can start training by clicking the **Start** button.
-
 
 ## Using the CLI
 
@@ -203,13 +196,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/InvoiceNet
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [naiveHobo/InvoiceNet](https://github.com/naiveHobo/InvoiceNet) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
