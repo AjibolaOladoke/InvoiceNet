@@ -234,3 +234,11 @@ Compiled and maintained from upstream [naiveHobo/InvoiceNet](https://github.com/
 ---
 
 Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
+
+## Sources
+
+Compiled and maintained from upstream [naiveHobo/InvoiceNet](https://github.com/naiveHobo/InvoiceNet) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
