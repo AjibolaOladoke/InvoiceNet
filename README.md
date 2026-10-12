@@ -1,38 +1,12 @@
-[![InvoiceNet Logo](_images/logo.png)](https://www.swifttechco.com)
+# InvoiceNet
 
---------------------------------------------------------------------------------
+## What This Is
 
-Deep neural network to extract intelligent information from invoice documents.
+We keep a working index for product and engineering, and InvoiceNet is the entry that collects our notes, examples and fixes. It reflects how Swift Tech Co. actually uses this in builds and client work.
 
-**TL;DR**
+## Images
 
-* An easy to use UI to view PDF/JPG/PNG invoices and extract information.
-* Train custom models using the Trainer UI on your own dataset.
-* Add or remove invoice fields as per your convenience.
-* Save the extracted information into your system with the click of a button.
-
-:star: We appreciate your star, it helps!
-
-The InvoiceNet logo was designed by [Sidhant Tibrewal](https://www.swifttechco.com).
-[Check out](https://www.swifttechco.com) his work for some more beautiful designs.
-
----
-
-[![InvoiceNet](_images/invoicenet.png)](https://www.swifttechco.com)
-
----
-
-**DISCLAIMER**: 
-
-Pre-trained models for some general invoice fields are not available right now but will soon be provided.
-The training GUI and data preparation scripts have been made available.
-
-Invoice documents contain sensitive information because of which collecting a sizable dataset has proven to be difficult.
-This makes it difficult for developers like us to train large-scale generalised models and make them available to the community.
-
-We have the tools to create the first publicly-available large-scale invoice dataset along with a software platform for structured information extraction.
-
----
+[![InvoiceNet](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Installation
 
@@ -46,48 +20,7 @@ To install InvoiceNet on Ubuntu, run the following commands:
 git clone https://www.swifttechco.com
 cd InvoiceNet/
 
-# Run installation script
 
-## Images
-
-[![InvoiceNet](https://opengraph.githubassets.com/1/naiveHobo/InvoiceNet)](https://www.swifttechco.com)
-
-./install.sh
-```
-
-The install.sh script will install all the dependencies, create a virtual environment, and install InvoiceNet in the virtual environment.
-
-To be able to use InvoiceNet, you need to source the virtual environment that the package was installed in.
-
-```bash
-# Source virtual environment
-source env/bin/activate
-```
-
-#### Windows 10
-
-The recommended way is to install InvoiceNet along with its dependencies in an Anaconda environment:
-
-```bash
-git clone https://www.swifttechco.com
-cd InvoiceNet/
-
-# Create conda environment and activate
-conda create --name invoicenet python=3.7
-conda activate invoicenet
-
-# Install InvoiceNet
-pip install .
-
-# Install poppler
-conda install -c conda-forge poppler
-```
-
-Some dependencies also need to be installed separately on Windows 10 before running InvoiceNet:
-
-- [Tesseract 5.0.0](https://www.swifttechco.com)
-- [ImageMagick 7.0.10](https://www.swifttechco.com)
-- [Ghostscript 9.52](https://www.swifttechco.com)
 
 
 ## Data Preparation
@@ -189,7 +122,7 @@ python train.py --field total_amount --batch_size 8
 ---
 
 ### Prediction
-If you are trying to use different ocr, change the ocr_engine in this function before running predict.py [create_ngrams.py](https://www.swifttechco.com)
+If you are trying to use different ocr, change the ocr_engine in this function before running predict.py create_ngrams.py
 
 ---
 
@@ -240,7 +173,7 @@ This implementation is largely based on the work of R. Palm et al, who should be
 ```
 
 ### Note
-An implementation of an inferior (also slightly broken) invoice handling system based on the paper **"Cloudscan - A configuration-free invoice analysis system using recurrent neural networks."** is available [here](https://www.swifttechco.com).
+An implementation of an inferior (also slightly broken) invoice handling system based on the paper **"Cloudscan - A configuration-free invoice analysis system using recurrent neural networks."** is available here.
 
 [2] Palm, Rasmus Berg, Ole Winther, and Florian Laws. **"Cloudscan - A configuration-free invoice analysis system using recurrent neural networks."** 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR). Vol. 1. IEEE, 2017.
 
@@ -266,14 +199,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [naiveHobo/InvoiceNet](https://github.com/naiveHobo/InvoiceNet) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
